@@ -4,7 +4,7 @@ const pool = new Pool({
     password: 'password',
     database: 'aditya',
     host: 'localhost',
-    port: '5000',
+    port: '5432',
 })
 
 pool.connect(()=>{
